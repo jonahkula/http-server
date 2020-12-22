@@ -1,4 +1,4 @@
-# SINGLE THREADED HTTP SERVER WITH BACKUP AND RECOVERY
+# Single Threaded HTTP Server with Backup and Recovery
 
 Jonah Kulakofsky\
 December 10, 2020
@@ -8,6 +8,7 @@ December 10, 2020
 Runs on linux ubuntu version 18.04\
 This server handles PUT and GET commands\
 You can run these curl commands only on files in the directory\
+If doing a PUT, new file must be 10 characters in length and alphanumeric\
 The timestamps for backup and recovery here are in unix format
 
 ## STEPS:
